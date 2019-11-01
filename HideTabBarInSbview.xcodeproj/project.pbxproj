@@ -13,6 +13,10 @@
 		AA23A4D2236CBBD700A25542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA23A4D1236CBBD700A25542 /* Assets.xcassets */; };
 		AA23A4D5236CBBD700A25542 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA23A4D4236CBBD700A25542 /* Preview Assets.xcassets */; };
 		AA23A4D8236CBBD700A25542 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA23A4D6236CBBD700A25542 /* LaunchScreen.storyboard */; };
+		AA23A4E0236CBBF500A25542 /* TabBar1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA23A4DF236CBBF500A25542 /* TabBar1.swift */; };
+		AA23A4E3236CBF7000A25542 /* TabBar2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA23A4E2236CBF7000A25542 /* TabBar2.swift */; };
+		AA23A4E5236CC0B000A25542 /* FullScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA23A4E4236CC0B000A25542 /* FullScreen.swift */; };
+		AA23A4E7236CC1C300A25542 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA23A4E6236CC1C300A25542 /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		AA23A4D4236CBBD700A25542 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA23A4D7236CBBD700A25542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA23A4D9236CBBD700A25542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA23A4DF236CBBF500A25542 /* TabBar1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar1.swift; sourceTree = "<group>"; };
+		AA23A4E2236CBF7000A25542 /* TabBar2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar2.swift; sourceTree = "<group>"; };
+		AA23A4E4236CC0B000A25542 /* FullScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreen.swift; sourceTree = "<group>"; };
+		AA23A4E6236CC1C300A25542 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +69,12 @@
 				AA23A4CF236CBBD200A25542 /* ContentView.swift */,
 				AA23A4D1236CBBD700A25542 /* Assets.xcassets */,
 				AA23A4D6236CBBD700A25542 /* LaunchScreen.storyboard */,
+				AA23A4DF236CBBF500A25542 /* TabBar1.swift */,
+				AA23A4E4236CC0B000A25542 /* FullScreen.swift */,
+				AA23A4E2236CBF7000A25542 /* TabBar2.swift */,
 				AA23A4D9236CBBD700A25542 /* Info.plist */,
 				AA23A4D3236CBBD700A25542 /* Preview Content */,
+				AA23A4E6236CC1C300A25542 /* Observable.swift */,
 			);
 			path = HideTabBarInSbview;
 			sourceTree = "<group>";
@@ -147,7 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA23A4CC236CBBD200A25542 /* AppDelegate.swift in Sources */,
+				AA23A4E0236CBBF500A25542 /* TabBar1.swift in Sources */,
+				AA23A4E3236CBF7000A25542 /* TabBar2.swift in Sources */,
+				AA23A4E7236CC1C300A25542 /* Observable.swift in Sources */,
 				AA23A4CE236CBBD200A25542 /* SceneDelegate.swift in Sources */,
+				AA23A4E5236CC0B000A25542 /* FullScreen.swift in Sources */,
 				AA23A4D0236CBBD200A25542 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

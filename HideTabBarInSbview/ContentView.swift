@@ -9,13 +9,33 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var userData: UserData
+    
     var body: some View {
-        Text("Hello, World!")
+        ZStack {
+            TabView {
+                TabBar1().environmentObject(self.userData)
+                    .tabItem {
+                        Image(systemName: "1.square.fill")
+                        Text("First")
+                }
+                TabBar2()
+                    .tabItem {
+                        Image(systemName: "2.square.fill")
+                        Text("Second")
+                }
+            }
+            
+            if self.userData.showFullScreen {
+                FullScreen().environmentObject(self.userData)
+                
+            }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(UserData())
     }
 }
